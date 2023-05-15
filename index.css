@@ -7,6 +7,7 @@ body {
 
 
 .container {
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     position: fixed;
@@ -25,7 +26,7 @@ h3 {
 p {
     color: #F94F6D;
     font-size: 60px;
-    margin: 10px;
+    margin: 20px auto;
     padding: 10px 0;
     background: #080001;
     font-family: Cursed;
