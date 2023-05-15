@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    background: #1B244A;
+    text-align: center;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+h3 {
+    color: #EEEEEE;
+    font-size: 30px;
+    
+}
+
+p {
+    color: #F94F6D;
+    font-size: 60px;
+    margin: 10px;
+    padding: 10px 0;
+    background: #080001;
+    font-family: Cursed;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+button {
+    font-family: Cursed;
+    background: #1B244A;
+    color: #9AABD8;
+    text-shadow: 0 4px 4px 0;
+    padding: 5px; 
+    
+}
+
+#reset-btn {
+    margin: 20px;
+    font-size: 20px;
+    background: #080001;
+    color: #F94F6D;
+}
+
+@font-face {
+  font-family: 'Cursed';
+  src: URL('Cursed.ttf') format('truetype');
+}
